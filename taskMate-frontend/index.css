@@ -1,0 +1,76 @@
+body{
+    background-image: url('https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.title{
+    font-family: Fasthand;
+    margin-left: 100px;
+}
+
+
+.container{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.todoCreate{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+.todoCreate input{
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 400px;
+    /* position: fixed; */
+}
+
+.addVal{
+    padding-left: 6px;
+    font-size: 2rem;
+    padding-right:8px;
+    margin-left: 25px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    vertical-align: center;
+    background-color: rgb(232, 181, 103);
+    /* background-color: rgb(237, 212, 175); */
+    font-weight: bolder;
+    border: solid;
+    border-color: black;
+}
+
+.addVal:hover{
+    background-color: rgb(150, 163, 66);
+    cursor: pointer;
+}
+
+.todoManager{
+    background-color: white;
+    height: 50px;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}
+
+.list{
+    list-style-type: none;
+    float: left;
+    margin-left: -40px;
+    
+}
