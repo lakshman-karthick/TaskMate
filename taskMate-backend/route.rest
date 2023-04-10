@@ -1,0 +1,25 @@
+GET http://localhost:7000/api/v1/todolist
+
+###
+
+DELETE http://localhost:8000/api/v1/todolist/642043374d222fbad779c780
+
+###
+
+POST http://localhost:8000/api/v1/todolist
+Content-Type: application/json
+
+{
+    "activity" : "Software Architecture Assignment"
+}
+
+
+###
+
+PUT http://localhost:7000/api/v1/todolist/642268d8d56a2e5280661f0a
+Content-Type: application/json
+
+{
+    "activity" : "Architecture Sw Assignment",
+    "status" : "true"
+}
